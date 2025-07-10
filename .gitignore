@@ -1,6 +1,4 @@
 creditcard.csv
-data/creditcard.csv
-creditcard.csv
 __pycache__/
 *.pyc
 *.pkl
