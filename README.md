@@ -13,9 +13,15 @@ This project detects fraudulent credit card transactions with ~95% accuracy usin
 
 ---
 
-## 🚀 How to Run
+## 🗂️ Project Structure
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/yourusername/credit-card-fraud-detection.git
-cd credit-card-fraud-detection
+credit-card-fraud-detection/
+├── .gitignore
+├── app.py # Flask API for model inference
+├── client.py # Sends requests to Flask API
+├── creditcard.csv # Dataset (Kaggle Credit Card Fraud)
+├── fraud_detection_model.pkl # Trained XGBoost model
+├── main.py # Training script
+├── README.md # Project documentation
+├── requirements.txt # Python dependencies
+└── scaler.pkl # Fitted MinMaxScaler
